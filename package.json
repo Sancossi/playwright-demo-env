@@ -1,0 +1,20 @@
+{
+    "name": "pl-test",
+    "description": "description",
+    "version": "1.0.0",
+    "author": "Vasiliy Bogoradov <bogoradowvasia@gmail.com>",
+    "license": "MIT",
+    "main": "app/main.js",
+    "scripts": {
+        "test": "jest -t '@test1'",
+        "lint": "npx eslint -ext .js . --fix"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^7.5.0",
+        "expect-playwright": "0.2.5",
+        "jest": "27.0.0",
+        "jest-circus-allure-environment": "^0.11.0",
+        "playwright": "^1.2.0"
+    }
+}
